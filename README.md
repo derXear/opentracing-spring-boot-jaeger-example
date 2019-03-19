@@ -1,6 +1,5 @@
 # OpenTracing Spring Boot example with Jaeger
 
-## THE EXAMPLE
 In this example we are running 2 services:
  * hello-service
  * greetings-service
@@ -22,8 +21,8 @@ _Greetings service_
 will run on **port 8080** and exposes the enpoint **/greetings/hello**.
 When calling this endpoint, this service calls the _hello-service_ and returns the String received in the response.
 
-When a request is process, traces are sent to Jaeger tool where you will get a detailed view of the operation. 
-You can access at [http://localhost:16686/](http://localhost:16686/)
+When a request is processed, traces are sent to the Jaeger tool, where you get a detailed view of the process. 
+You can access the Jaeger UI via the following link [http://localhost:16686/](http://localhost:16686/)
 
 
 ## Build/run the example
