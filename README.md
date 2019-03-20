@@ -4,12 +4,13 @@ In this example we are running 2 services:
  * hello-service
  * greetings-service
  
-Both are using [java-spring-web](https://github.com/opentracing-contrib/java-spring-web)
+Both are using [java-spring-jaeger](https://github.com/opentracing-contrib/java-spring-jaeger)
 by including the following dependency
 ```
 <dependency>
-  <groupId>io.opentracing.contrib</groupId>
-  <artifactId>opentracing-spring-web-starter</artifactId>
+    <groupId>io.opentracing.contrib</groupId>
+    <artifactId>opentracing-spring-jaeger-web-starter</artifactId>
+    <version>1.0.3</version>
 </dependency>
 ```
 
@@ -40,7 +41,3 @@ docker-compose up
 **Call endpoint**: [http://localhost:8080/greetings/hello](http://localhost:8080/greetings/hello)
 
 and you will see the traces by accessing to Jaeger at [http://localhost:16686/](http://localhost:16686/)
-
-## Not working
-
-For whatever reason, you will not see the dependencies graph in Jaeger UI.
