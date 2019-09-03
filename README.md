@@ -1,5 +1,8 @@
 # OpenTracing Spring Boot example with Jaeger
 
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+
 In this example we are running 2 services:
  * hello-service
  * greetings-service
@@ -41,3 +44,8 @@ docker-compose up
 **Call endpoint**: [http://localhost:8080/greetings/hello](http://localhost:8080/greetings/hello)
 
 and you will see the traces by accessing to Jaeger at [http://localhost:16686/](http://localhost:16686/)
+
+[travis-image]: https://travis-ci.org/derXear/opentracing-spring-boot-jaeger-example.svg?branch=master
+[travis-url]: https://travis-ci.org/derXear/opentracing-spring-boot-jaeger-example
+[coveralls-image]: https://coveralls.io/repos/github/derXear/opentracing-spring-boot-jaeger-example/badge.svg
+[coveralls-url]: https://coveralls.io/github/derXear/opentracing-spring-boot-jaeger-example
