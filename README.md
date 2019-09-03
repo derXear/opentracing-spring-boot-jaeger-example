@@ -45,7 +45,7 @@ docker-compose up
 
 and you will see the traces by accessing to Jaeger at [http://localhost:16686/](http://localhost:16686/)
 
-[travis-image]: https://travis-ci.org/derXear/opentracing-spring-boot-jaeger-example.svg?branch=master
-[travis-url]: https://travis-ci.org/derXear/opentracing-spring-boot-jaeger-example
+[travis-image]: https://travis-ci.com/derXear/opentracing-spring-boot-jaeger-example.svg?branch=master
+[travis-url]: https://travis-ci.com/derXear/opentracing-spring-boot-jaeger-example
 [coveralls-image]: https://coveralls.io/repos/github/derXear/opentracing-spring-boot-jaeger-example/badge.svg
 [coveralls-url]: https://coveralls.io/github/derXear/opentracing-spring-boot-jaeger-example
